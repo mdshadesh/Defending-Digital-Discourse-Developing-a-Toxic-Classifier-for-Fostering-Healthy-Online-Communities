@@ -60,6 +60,5 @@ This snippet trains a Ridge regression model and analyzes token frequencies to u
 #### Code Snippet 4:
 The code makes predictions on new reviews using the trained regression models and provides predicted review ratings.
 
-These summaries provide an overview of each project and the key tasks performed in each code snippet. If you need more detailed information or assistance with any specific part, feel free to ask!
 
 
