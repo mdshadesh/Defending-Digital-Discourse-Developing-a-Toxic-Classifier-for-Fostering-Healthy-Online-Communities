@@ -1,140 +1,29 @@
-# Defending-Digital-Discourse-Developing-a-Toxic-Classifier-for-Fostering-Healthy-Online-Communities
-Defending Digital Discourse Developing a Toxic Comment Classifier for Fostering Healthy Online Communities
+######Defending Digital Discourse Developing a Toxic Comment Classifier for Fostering Healthy Online Communities
+# 💫 About This Project:
+### Project 1: Toxic Comment Classification<br><br>#### Code Snippet 1:<br>Visualizes toxic label distribution and pre-processes text data for classification.<br><br>#### Code Snippet 2:<br>Trains logistic regression models for toxic label prediction using TF-IDF vectorization and evaluates performance with ROC AUC scores.<br><br>#### Code Snippet 3:<br>Trains Multinomial Naive Bayes classifier for toxic comment classification and conducts feature analysis.<br><br>#### Code Snippet 4:<br>Makes predictions on new comments using logistic regression models and provides toxicity probabilities.<br><br>### Project 2: Spam Email Detection<br><br>#### Code Snippet 1:<br>Visualizes spam and non-spam email distribution, preprocesses text data for classification.<br><br>#### Code Snippet 2:<br>Trains logistic regression models using TF-IDF vectorization for spam classification and evaluates model performance.<br><br>#### Code Snippet 3:<br>Trains Naive Bayes classifier and analyzes token frequencies for spam detection.<br><br>#### Code Snippet 4:<br>Predicts spam probability for new emails using trained logistic regression models.<br><br>### Project 3: Sentiment Analysis<br><br>#### Code Snippet 1:<br>Visualizes sentiment label distribution, preprocesses text data for analysis.<br><br>#### Code Snippet 2:<br>Trains logistic regression models for sentiment classification using TF-IDF vectorization and evaluates performance.<br><br>#### Code Snippet 3:<br>Trains Naive Bayes classifier and analyzes token frequencies for sentiment analysis.<br><br>#### Code Snippet 4:<br>Predicts sentiment probabilities for new text data using logistic regression models.<br><br>### Project 4: Product Review Rating Prediction<br><br>#### Code Snippet 1:<br>Visualizes review rating distribution, preprocesses text data for prediction.<br><br>#### Code Snippet 2:<br>Trains regression models for review rating prediction using TF-IDF vectorization and evaluates performance.<br><br>#### Code Snippet 3:<br>Trains Ridge regression model and analyzes token frequencies for rating prediction.<br><br>#### Code Snippet 4:<br>Predicts review ratings for new reviews using regression models.
 
 
-Here's a step-by-step guide to running this code on any device:
-First Run Traning Project on Code
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Prefect](https://img.shields.io/badge/Prefect-%23ffffff.svg?style=for-the-badge&logo=prefect&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=mdshadesh&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=mdshadesh&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mdshadesh&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
-Step 1: Install Required Libraries
-If you haven't installed the required libraries, open a terminal or command prompt and type:
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=mdshadesh&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
-pip install tensorflow scikit-learn matplotlib numpy opencv-python import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import sys, os, re, csv, codecs, numpy as np, pandas as pd
-import matplotlib.pyplot as plt
-%matplotlib inline
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
-from tensorflow.keras.layers import Dense, Input, LSTM, Embedding, Dropout, Activation
-from keras.layers import Bidirectional, GlobalMaxPool1D,Bidirectional
-from keras.models import Model
-from keras import initializers, regularizers, constraints, optimizers, layers
-import matplotlib.pyplot as plt
-%matplotlib inline
-import gensim.models.keyedvectors as word2vec
-import gc
-import numpy as np
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-Step 2: Set Up Directory
-Ensure you have a directory with images categorized into "with_mask" and "without_mask". Update the DIRECTORY variable in your code to point to this directory:
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=mdshadesh&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-train = pd.read_csv("C:/Users/naimu/Music/Toxic Comment Classification/Toxic Comment Main Project/Input Dataset/train.csv")
-test = pd.read_csv("C:/Users/naimu/Music/Toxic Comment Classification/Toxic Comment Main Project/Input Dataset/test.csv")
+---
+[![](https://visitcount.itsvg.in/api?id=mdshadesh&icon=0&color=0)](https://visitcount.itsvg.in)
 
-Step 3: Run the Code
-Copy the entire code and paste it into a Python environment (like Jupyter Notebook or a Python script).
+  ## 💰 You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Jahangirhussen) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/Zannatul Fardus) 
 
-Step 4: Execute the Code
-Run the code cell by cell or all at once. This will:
-
-Steps for Defending Digital Discourse Developing a Toxic Comment Classifier for Fostering Healthy Online Communities:
-Load images from the specified directory.
-Preprocess the images and perform label encoding.
-Split the data into training and testing sets.
-Set up data augmentation.
-Build and compile the model.
-Train the model.
-Evaluate the model's performance.
-Save the trained model and generate plots for training loss and accuracy.
-
-Step 5: Check Outputs
-After running the code, check the following:
-
-Toxic Comment Classifier
-
-Toxic Comment Classifier
-Step 1: Install Required Libraries:
-Ensure you have the necessary libraries installed. The code requires TensorFlow, NumPy, imutils, and OpenCV (cv2). You can install them via pip:
-
-pip install tensorflow numpy imutils opencv-python
-
-Step 2: Download Model Files:
-Download the face detector model files (deploy.prototxt and res10_300x300_ssd_iter_140000.caffemodel) from here. Save the downloaded model files in a folder named face_detector.
-
-Step 3: Download Mask Detection Model:
-::::
-::::
-::::
-
-Step 4: Run the Code:
-Copy the provided code into a Python environment (e.g., a Python script or a Jupyter Notebook).
-Update the paths to the face detector model (prototxtPath and weightsPath) and the face mask detection model (maskNet) in the code.
-
-
-
-
-
-
-
-Sure, here are summaries of four code snippets for different projects:
-
-### Project 1: Toxic Comment Classification
-
-#### Code Snippet 1:
-This code snippet performs data visualization and preprocessing for toxic comment classification. It includes visualizing the distribution of toxic labels and cleaning the text data.
-
-#### Code Snippet 2:
-It trains logistic regression models for each toxic label using TF-IDF vectorization. The models are evaluated using ROC AUC score, and misclassified examples are analyzed.
-
-#### Code Snippet 3:
-The code trains a Multinomial Naive Bayes classifier and performs feature analysis to understand the importance of words in predicting toxic comments.
-
-#### Code Snippet 4:
-This snippet makes predictions using the trained logistic regression models and provides the probability of comments being toxic for each label.
-
-### Project 2: Spam Email Detection
-
-#### Code Snippet 1:
-The code visualizes the distribution of spam and non-spam emails in the dataset and preprocesses the text data by cleaning and standardizing it.
-
-#### Code Snippet 2:
-It trains logistic regression models using TF-IDF vectorization for spam classification and evaluates model performance using accuracy and other metrics.
-
-#### Code Snippet 3:
-This snippet trains a Naive Bayes classifier and analyzes token frequencies to understand the importance of words in spam detection.
-
-#### Code Snippet 4:
-The code makes predictions on new emails using the trained logistic regression models and provides probabilities of emails being spam.
-
-### Project 3: Sentiment Analysis
-
-#### Code Snippet 1:
-It visualizes the distribution of sentiment labels in the dataset and preprocesses the text data by cleaning and standardizing it.
-
-#### Code Snippet 2:
-The code trains logistic regression models for sentiment classification using TF-IDF vectorization and evaluates model performance using accuracy and other metrics.
-
-#### Code Snippet 3:
-This snippet trains a Naive Bayes classifier and analyzes token frequencies to understand the importance of words in sentiment analysis.
-
-#### Code Snippet 4:
-The code makes predictions on new text data using the trained logistic regression models and provides probabilities of sentiment labels.
-
-### Project 4: Product Review Rating Prediction
-
-#### Code Snippet 1:
-It visualizes the distribution of product review ratings and preprocesses the text data by cleaning and standardizing it.
-
-#### Code Snippet 2:
-The code trains regression models for predicting review ratings using TF-IDF vectorization and evaluates model performance using metrics like RMSE.
-
-#### Code Snippet 3:
-This snippet trains a Ridge regression model and analyzes token frequencies to understand the importance of words in predicting review ratings.
-
-#### Code Snippet 4:
-The code makes predictions on new reviews using the trained regression models and provides predicted review ratings.
-
-
-
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
